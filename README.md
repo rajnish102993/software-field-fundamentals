@@ -13,3 +13,4 @@ storing user name, age, price, API response, etc.
 $userName = "Raj";
 
 Now you can use $userName anywhere.
+
