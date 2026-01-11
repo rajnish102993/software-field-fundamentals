@@ -13,3 +13,15 @@ storing user name, age, price, API response, etc.
 $userName = "Raj";
 
 Now you can use $userName anywhere.
+
+## 2. Difference between == and ===?
+
+== compares only value, === compares value + data type.
+
+### Real use: 
+avoiding bugs in conditions.
+
+###Example (PHP/JS):
+
+"5" == 5   // true
+"5" === 5  // false
