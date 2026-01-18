@@ -25,3 +25,16 @@ Example (PHP/JS):
 
 "5" == 5   // true
 "5" === 5  // false
+
+
+3. What is a function?
+
+A function is a reusable block of code that performs one task.
+
+Real use: login logic, calculations, API calls.
+
+Example:
+function add($a, $b) {
+  return $a + $b;
+}
+
