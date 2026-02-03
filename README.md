@@ -16,6 +16,8 @@ Real Use:
 Example:
 ```php
 $userName = "Raj";
+
+```
 ========================================
 
 QUESTION 2
