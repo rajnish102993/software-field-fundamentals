@@ -129,3 +129,4 @@ Many developers skip these simple fundamentals.
 Strong basics = Strong developer.
 
 ---
+
