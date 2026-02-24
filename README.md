@@ -123,6 +123,30 @@ In modern JavaScript, prefer `let` and `const`.
 
 ---
 
+
+## ✅ 8. What is the difference between Session and Cookie in PHP?
+
+### 📖 Answer:
+
+- `Session` → Stored on the server.
+
+- `Cookie` → Stored in the browser.
+
+- Sessions are generally more secure because data is not stored on the client side.
+
+💡 Real-World Uses:
+
+Login systems
+
+Remember me functionality
+
+Storing user preferences
+
+### 🧑‍💻 Example (PHP Session):
+```
+$_SESSION['user'] = "Raj";
+```
+
 # 🚀 Why This Repository?
 
 Many developers skip these simple fundamentals.  
