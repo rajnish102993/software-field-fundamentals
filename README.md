@@ -147,6 +147,79 @@ Storing user preferences
 $_SESSION['user'] = "Raj";
 ```
 
+
+
+
+
+
+## ✅ 9. What Does npm run dev Mean?
+
+### 📖 Answer:
+
+npm run dev is a command used in JavaScript projects to start a development server.
+
+It has three parts:
+
+npm → Node Package Manager
+
+run → Tells npm to run a script
+
+dev → The name of the script defined in package.json
+
+🔎 Breakdown:
+1️⃣ What is npm?
+
+npm (Node Package Manager) is a tool that comes with Node.js.
+It is used to:
+
+Install packages
+
+Manage dependencies
+
+Run project scripts
+
+Example:
+
+npm install
+2️⃣ What is run?
+
+run tells npm to execute a script inside the package.json file.
+
+3️⃣ What is dev?
+
+dev is usually a development script name.
+
+Example inside package.json:
+
+{
+  "scripts": {
+    "dev": "vite",
+    "build": "webpack",
+    "start": "node server.js"
+  }
+}
+
+Running:
+
+npm run dev
+
+Actually runs:
+
+vite
+💡 Why Use dev?
+
+It usually:
+
+Starts a local development server
+
+Enables hot reload
+
+Shows detailed errors
+
+
+
+
+
 # 🚀 Why This Repository?
 
 Many developers skip these simple fundamentals.  
