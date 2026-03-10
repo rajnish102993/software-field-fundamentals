@@ -190,6 +190,7 @@ dev is usually a development script name.
 
 Example inside package.json:
 
+```
 {
   "scripts": {
     "dev": "vite",
@@ -197,6 +198,7 @@ Example inside package.json:
     "start": "node server.js"
   }
 }
+```
 
 Running:
 
