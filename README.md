@@ -179,7 +179,9 @@ Run project scripts
 
 Example:
 
+```
 npm install
+```
 2️⃣ What is run?
 
 run tells npm to execute a script inside the package.json file.
