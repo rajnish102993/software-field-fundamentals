@@ -221,6 +221,60 @@ Shows detailed errors
 
 
 
+## ✅ 10. What is an API?
+### 📖 Answer:
+
+An API (Application Programming Interface) allows two different software systems to communicate with each other.
+
+It acts like a bridge between applications.
+
+💡 Real-World Uses:
+
+Fetching weather data
+
+Login with Google
+
+Payment gateways
+
+Mobile app ↔ server communication
+
+🧑‍💻 Example (JavaScript Fetch API):
+fetch("https://api.example.com/users")
+  .then(response => response.json())
+  .then(data => console.log(data));
+
+Here your program is requesting data from another server using an API.
+
+## ✅ 11. What is Debugging?
+### 📖 Answer:
+
+Debugging is the process of finding and fixing errors (bugs) in a program.
+
+Every developer spends a large amount of time debugging.
+
+💡 Common Debugging Methods:
+
+Using console.log()
+
+Checking error messages
+
+Using browser developer tools
+
+Using breakpoints
+
+🧑‍💻 Example:
+let price = 100;
+let total = price * quantity;
+
+console.log(total);
+
+If quantity is not defined, debugging helps identify the issue.
+
+🧠 Tip:
+
+A good developer is not the one who writes code fastest,
+but the one who can debug problems efficiently.
+
 
 
 # 🚀 Why This Repository?
