@@ -277,6 +277,28 @@ but the one who can debug problems efficiently.
 
 
 
+## ✅ 12. What is CSRF Protection in Laravel?
+### 📖 Answer:
+CSRF (Cross-Site Request Forgery) protection ensures that unauthorized users cannot perform actions on behalf of authenticated users.
+
+Laravel automatically protects your application from CSRF attacks by generating a unique token for each user session.
+
+📌 Important Point (often ignored):
+Every form must include a CSRF token, otherwise the request will be rejected.
+
+```
+🧑‍💻 Example:
+
+<form method="POST" action="/submit">
+    @csrf
+    <input type="text" name="name">
+    <button type="submit">Submit</button>
+</form>
+
+```
+
+
+
 # 🚀 Why This Repository?
 
 Many developers skip these simple fundamentals.  
