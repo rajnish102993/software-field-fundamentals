@@ -263,10 +263,14 @@ Using browser developer tools
 Using breakpoints
 
 🧑‍💻 Example:
+
+```
 let price = 100;
 let total = price * quantity;
 
 console.log(total);
+
+```
 
 If quantity is not defined, debugging helps identify the issue.
 
