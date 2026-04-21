@@ -303,6 +303,7 @@ Every form must include a CSRF token, otherwise the request will be rejected.
 
 
 
+
 # 🚀 Why This Repository?
 
 Many developers skip these simple fundamentals.  
