@@ -302,6 +302,162 @@ Every form must include a CSRF token, otherwise the request will be rejected.
 ```
 
 
+## ✅ 13. What is Hoisting? (JavaScript)
+### 📖 Answer:
+
+Hoisting means JavaScript moves variable and function declarations to the top of their scope before execution.
+
+🧑‍💻 Example:
+console.log(a); // undefined
+var a = 5;
+
+Behind the scenes:
+
+var a;
+console.log(a);
+a = 5;
+
+⚠️ let and const are also hoisted but not initialized, so they give errors.
+
+
+## ✅ 14. What is Closure?
+### 📖 Answer:
+
+A closure is when a function remembers variables from its outer scope even after the outer function has finished.
+
+🧑‍💻 Example:
+function outer() {
+  let count = 0;
+
+  return function inner() {
+    count++;
+    console.log(count);
+  };
+}
+
+const fn = outer();
+fn(); // 1
+fn(); // 2
+
+💡 Used in:
+
+Data hiding
+Private variables
+
+
+## ✅ 15. What is Event Loop? (JavaScript)
+### 📖 Answer:
+
+The event loop handles asynchronous operations in JavaScript.
+
+It decides:
+
+“What should run now, and what should wait?”
+
+💡 Simple Idea:
+JS is single-threaded
+But handles async using:
+Call stack
+Callback queue
+Event loop
+
+
+## ✅ 16. What is Promise?
+### 📖 Answer:
+
+A Promise represents a value that may be available now, later, or never.
+
+📌 States:
+Pending
+Resolved
+Rejected
+🧑‍💻 Example:
+fetch("api")
+  .then(res => res.json())
+  .catch(err => console.log(err));
+
+  
+## ✅ 17. What is Difference Between map() and forEach()?
+### 📖 Answer:
+Feature	map()	forEach()
+Return value	Returns new array	Returns nothing
+Use case	Transform data	Loop only
+🧑‍💻 Example:
+let arr = [1,2,3];
+
+let newArr = arr.map(x => x * 2); // [2,4,6]
+arr.forEach(x => console.log(x)); // just prints
+✅ 18. What is Middleware? (Laravel / Express)
+📖 Answer:
+
+Middleware is code that runs between request and response.
+
+💡 Use Cases:
+Authentication
+Logging
+Validation
+
+
+## ✅ 19. What is MVC Architecture?
+### 📖 Answer:
+
+MVC = Model, View, Controller
+
+Model → Data
+View → UI
+Controller → Logic
+
+💡 Helps organize large applications.
+
+
+## ✅ 20. What is REST API?
+### 📖 Answer:
+
+A REST API follows standard HTTP methods:
+
+GET → Read
+POST → Create
+PUT → Update
+DELETE → Remove
+
+
+## ✅ 21. What is Difference Between SQL and NoSQL?
+### 📖 Answer:
+SQL	NoSQL
+Structured	Flexible
+Tables	JSON / Documents
+Example: MySQL	Example: MongoDB
+✅ 22. What is Authentication vs Authorization?
+📖 Answer:
+Authentication → Who are you? (Login)
+Authorization → What can you do? (Permissions)
+
+
+## ✅ 23. What is Git?
+### 📖 Answer:
+
+Git is a version control system.
+
+💡 Use:
+Track code changes
+Work in teams
+Undo mistakes
+
+
+## ✅ 24. What is Difference Between == and equals()? (Java)
+### 📖 Answer:
+== → Compares memory reference
+equals() → Compares values
+
+
+## ✅ 25. What is Lazy Loading?
+### 📖 Answer:
+
+Lazy loading means loading data only when needed, not all at once.
+
+💡 Example:
+
+Images load when you scroll
 
 
 # 🚀 Why This Repository?
