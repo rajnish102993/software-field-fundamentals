@@ -307,6 +307,8 @@ Every form must include a CSRF token, otherwise the request will be rejected.
 
 Hoisting means JavaScript moves variable and function declarations to the top of their scope before execution.
 
+```
+
 🧑‍💻 Example:
 console.log(a); // undefined
 var a = 5;
@@ -316,6 +318,8 @@ Behind the scenes:
 var a;
 console.log(a);
 a = 5;
+
+```
 
 ⚠️ let and const are also hoisted but not initialized, so they give errors.
 
