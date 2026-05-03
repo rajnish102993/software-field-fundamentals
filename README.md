@@ -329,6 +329,7 @@ a = 5;
 
 A closure is when a function remembers variables from its outer scope even after the outer function has finished.
 
+```
 🧑‍💻 Example:
 function outer() {
   let count = 0;
@@ -342,6 +343,8 @@ function outer() {
 const fn = outer();
 fn(); // 1
 fn(); // 2
+
+```
 
 💡 Used in:
 
