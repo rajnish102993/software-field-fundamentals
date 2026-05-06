@@ -445,11 +445,13 @@ Authorization → What can you do? (Permissions)
 
 Git is a version control system.
 
+---
 💡 Use:
 Track code changes
 Work in teams
 Undo mistakes
 
+---
 
 ## ✅ 24. What is Difference Between == and equals()? (Java)
 ### 📖 Answer:
