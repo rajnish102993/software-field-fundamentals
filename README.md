@@ -379,10 +379,14 @@ A Promise represents a value that may be available now, later, or never.
 Pending
 Resolved
 Rejected
+
+```
 🧑‍💻 Example:
 fetch("api")
   .then(res => res.json())
   .catch(err => console.log(err));
+
+```
 
   
 ## ✅ 17. What is Difference Between map() and forEach()?
